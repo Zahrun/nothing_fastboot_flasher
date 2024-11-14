@@ -22,7 +22,7 @@ if not exist %fastboot% (
 )
 
 set boot_partitions=boot vendor_boot dtbo
-set firmware_partitions=abl aop bluetooth cpucp devcfg dsp dtbo featenabler hyp imagefv keymaster modem multiimgoem qupfw shrm tz uefisecapp xbl xbl_config
+set firmware_partitions=abl aop bluetooth cpucp devcfg dsp featenabler hyp imagefv keymaster modem multiimgoem qupfw shrm tz uefisecapp xbl xbl_config
 set logical_partitions=system system_ext product vendor odm
 set junk_logical_partitions=null
 set vbmeta_partitions=vbmeta_system
